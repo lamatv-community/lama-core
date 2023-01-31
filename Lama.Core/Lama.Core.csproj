@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.6" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers\v1" />
+      <Folder Include="Validators" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lama.Core.Infrastructure\Lama.Core.Infrastructure.csproj" />
+      <ProjectReference Include="..\Lama.Core.Services.AzureStorageService\Lama.Core.Services.AzureStorageService.csproj" />
+    </ItemGroup>
+
+</Project>

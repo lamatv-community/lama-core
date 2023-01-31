@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core", "Lama.Core\Lama.Core.csproj", "{0A6A2D83-88EC-4FCF-8D2F-257C693ED2C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lama.Core.Services", "Lama.Core.Services", "{DB29FA3B-713E-4CB9-901E-96313F2E6566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Infrastructure", "Lama.Core.Infrastructure\Lama.Core.Infrastructure.csproj", "{ED289857-10C0-40BC-A73D-C700124CD1A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lama.Core.Tests", "Lama.Core.Tests", "{8F241749-C9C9-4C20-B6F7-A43EA1BA81CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Common", "Lama.Core.Common\Lama.Core.Common.csproj", "{42B27793-BDAC-45AB-ACA6-5A3FF8A85EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Common.Tests", "Lama.Core.Common.Tests\Lama.Core.Common.Tests.csproj", "{E091A84C-735A-4297-9551-4B975E554EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Services.AzureStorageService", "Lama.Core.Services.AzureStorageService\Lama.Core.Services.AzureStorageService.csproj", "{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Services.AzureStorageService.Tests", "Lama.Core.Services.AzureStorageService.Tests\Lama.Core.Services.AzureStorageService.Tests.csproj", "{D8A3D93B-EEA4-41AE-82D3-CB2231E63303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lama.Core.Facades", "Lama.Core.Facades", "{E775479F-6D92-423A-ACA1-9A8D153AC061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lama.Core.Repositories", "Lama.Core.Repositories", "{50EB162C-4CF5-4789-B873-F093BACBCFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Repositories.AdminRepository", "Lama.Core.Repositories.AdminRepository\Lama.Core.Repositories.AdminRepository.csproj", "{1985B580-9DC6-4EFB-A94D-1A6DF90951B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lama.Core.Facades.AdminFacade", "Lama.Core.Facades.AdminFacade\Lama.Core.Facades.AdminFacade.csproj", "{70CE2017-522D-42C0-BF40-1B1C48A31F12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A6A2D83-88EC-4FCF-8D2F-257C693ED2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6A2D83-88EC-4FCF-8D2F-257C693ED2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6A2D83-88EC-4FCF-8D2F-257C693ED2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6A2D83-88EC-4FCF-8D2F-257C693ED2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED289857-10C0-40BC-A73D-C700124CD1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED289857-10C0-40BC-A73D-C700124CD1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED289857-10C0-40BC-A73D-C700124CD1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED289857-10C0-40BC-A73D-C700124CD1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B27793-BDAC-45AB-ACA6-5A3FF8A85EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B27793-BDAC-45AB-ACA6-5A3FF8A85EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B27793-BDAC-45AB-ACA6-5A3FF8A85EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B27793-BDAC-45AB-ACA6-5A3FF8A85EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E091A84C-735A-4297-9551-4B975E554EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E091A84C-735A-4297-9551-4B975E554EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E091A84C-735A-4297-9551-4B975E554EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E091A84C-735A-4297-9551-4B975E554EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A3D93B-EEA4-41AE-82D3-CB2231E63303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A3D93B-EEA4-41AE-82D3-CB2231E63303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A3D93B-EEA4-41AE-82D3-CB2231E63303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A3D93B-EEA4-41AE-82D3-CB2231E63303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1985B580-9DC6-4EFB-A94D-1A6DF90951B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1985B580-9DC6-4EFB-A94D-1A6DF90951B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1985B580-9DC6-4EFB-A94D-1A6DF90951B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1985B580-9DC6-4EFB-A94D-1A6DF90951B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CE2017-522D-42C0-BF40-1B1C48A31F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CE2017-522D-42C0-BF40-1B1C48A31F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CE2017-522D-42C0-BF40-1B1C48A31F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CE2017-522D-42C0-BF40-1B1C48A31F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E091A84C-735A-4297-9551-4B975E554EF6} = {8F241749-C9C9-4C20-B6F7-A43EA1BA81CD}
+		{EC0D3588-6D3C-444F-8A55-8C6CC5B0344A} = {DB29FA3B-713E-4CB9-901E-96313F2E6566}
+		{D8A3D93B-EEA4-41AE-82D3-CB2231E63303} = {8F241749-C9C9-4C20-B6F7-A43EA1BA81CD}
+		{1985B580-9DC6-4EFB-A94D-1A6DF90951B6} = {50EB162C-4CF5-4789-B873-F093BACBCFB0}
+		{70CE2017-522D-42C0-BF40-1B1C48A31F12} = {E775479F-6D92-423A-ACA1-9A8D153AC061}
+	EndGlobalSection
+EndGlobal
